@@ -97,7 +97,5 @@ Vagrant.configure("2") do |config|
   sed -i 's/username_here/wpuser/' wp-config.php
   # Database password:
   sed -i 's/password_here/wppass/' wp-config.php
-  # Link (Refresh when 'vagrant up' command finished)
-  xdg-open '127.0.0.1:8000'
   SHELL
 end
