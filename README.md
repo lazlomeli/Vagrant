@@ -1,4 +1,5 @@
 # Automatic Wordpress installation using Vagrant
+
 **@author:** Lazlo Meli (https://github.com/lazlomeli)
 
 > Built with: 
@@ -18,13 +19,13 @@ _______________________________________________________________
 - [Vagrant 2.3.0 for Windows](https://www.vagrantup.com/downloads)
 - [MySQL Server 8.0](https://dev.mysql.com/downloads/mysql/)
 
+_______________________________________________________________
 
 ### 2. Installation
 Clone the repostory in your desired folder. After doing so, `git pull` just to make sure you have the latest version.
 > Listing the files in my folder after cloning:
 
 ![image](https://user-images.githubusercontent.com/72606659/194422481-6b71fe31-383b-4ba8-bacc-5052a6ab4c68.png)
-
 
 ### 3. Running the project
 Simple. Double click the `setup.bat` file. It will run and configure everything.
@@ -46,11 +47,11 @@ You should see something like this:
 
 ![image](https://user-images.githubusercontent.com/72606659/194426321-b1a7b03a-77d5-490b-ab14-a29bea32cf59.png)
 
-### 4. Setting up the Wordpress Dashboard
-
 Fill up the labels with your information and you have yourself a fully configured Wordpress. Now you can customize your new Wordpress administration dashboard as you like.
 
-### 5. Performance Testing
+_______________________________________________________________
+
+### 4. Performance Testing
 > Apache Benchmark version 2.3 was used
 
 The following command was used to test the server `ab -k -n100 -c5 http://127.0.0.1:8000/`
