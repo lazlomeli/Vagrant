@@ -61,16 +61,17 @@ This is the output of the previous command:
 ![image](https://user-images.githubusercontent.com/72606659/194429378-c5eb790e-b7de-4b74-bc1c-99a528ef65e0.png)
 
 I tested the server with: 
-- **100** petitions with **10** concurrent
-- **200** petitions with **20** concurrent
-- **300** petitions with **30** concurrent
-- **350** petitions with **35** concurrent
+- **100** petitions with **10** concurrent petitions
+- **200** petitions with **20** concurrent petitions
+- **300** petitions with **30** concurrent petitions
+- **350** petitions with **35** concurrent petitions
 
 > I could not go any further than 350/35, the server would crash out.
 
 After all the tests, I collected the data and graphied it:
-> Time per request
+> Time per request in milliseconds
 
 ![image](https://user-images.githubusercontent.com/72606659/194429891-2577c8dc-a68a-4593-9032-709a7416b26c.png)
 
-
+### 5. End
+Learn more about Vagrant [here](https://www.vagrantup.com/docs)
