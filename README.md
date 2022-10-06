@@ -34,7 +34,7 @@ Simple. Double click the `setup.bat` file. It will run and configure everything.
 Once you run this script a **Command Prompt** should open up and start configuring the Vagrant box. It should look something like this:
 > Command Line logs
 
-![image](https://user-images.githubusercontent.com/72606659/194424879-b29db742-f28c-46be-9bb7-16f4025fdfc9.png)
+<img src="https://user-images.githubusercontent.com/72606659/194424879-b29db742-f28c-46be-9bb7-16f4025fdfc9.png" width="700" height="300">
 
 A Virtual Box virtual machine should also start up and start configuring itself.
 If you open up the Oracle VM VirtualBox application, you can see that a new virtual machine has been created:
@@ -45,7 +45,7 @@ After the virtual machine is configured. A **Google Chrome** tab should automati
 You should see something like this:
 > Wordpress set up page
 
-![image](https://user-images.githubusercontent.com/72606659/194426321-b1a7b03a-77d5-490b-ab14-a29bea32cf59.png)
+<img src="https://user-images.githubusercontent.com/72606659/194426321-b1a7b03a-77d5-490b-ab14-a29bea32cf59.png" width="450" height="500">
 
 Fill up the labels with your information and you have yourself a fully configured Wordpress. Now you can customize your new Wordpress administration dashboard as you like.
 
@@ -58,7 +58,8 @@ The following command was used to test the server `ab -k -n100 -c5 http://127.0.
 To learn more about the flags used in this command, [here](https://httpd.apache.org/docs/2.4/programs/ab.html) you can find the official Apache documentation about it.
 
 This is the output of the previous command:
-![image](https://user-images.githubusercontent.com/72606659/194429378-c5eb790e-b7de-4b74-bc1c-99a528ef65e0.png)
+
+<img src="https://user-images.githubusercontent.com/72606659/194429378-c5eb790e-b7de-4b74-bc1c-99a528ef65e0.png" width="600" height="600">
 
 I tested the server with: 
 - **100** petitions with **10** concurrent petitions
@@ -71,7 +72,7 @@ I tested the server with:
 After all the tests, I collected the data and graphied it:
 > Time per request in milliseconds
 
-![image](https://user-images.githubusercontent.com/72606659/194429891-2577c8dc-a68a-4593-9032-709a7416b26c.png)
+<img src="https://user-images.githubusercontent.com/72606659/194429891-2577c8dc-a68a-4593-9032-709a7416b26c.png" width="600" height="400">
 
 ### 5. End
 Learn more about Vagrant [here](https://www.vagrantup.com/docs)
