@@ -1,4 +1,4 @@
-# Automatic Wordpress installation using Vagrant
+# Wordpress installation using Vagrant
 
 **@author:** Lazlo Meli (https://github.com/lazlomeli)
 
