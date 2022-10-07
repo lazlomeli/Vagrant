@@ -63,7 +63,7 @@ To learn more about the flags used in this command, [here](https://httpd.apache.
 <img src="https://user-images.githubusercontent.com/72606659/194429378-c5eb790e-b7de-4b74-bc1c-99a528ef65e0.png" width="600" height="600">
 
 I tested the server with: 
-- **100** petitions with **10** concurrent petitions
+- **100** petitions with **5** concurrent petitions
 - **200** petitions with **20** concurrent petitions
 - **300** petitions with **30** concurrent petitions
 - **350** petitions with **35** concurrent petitions
