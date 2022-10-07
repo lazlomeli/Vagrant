@@ -1,7 +1,7 @@
 # Wordpress installation using Vagrant LAMP
 ![version](https://img.shields.io/badge/version-1.0-blue)
 
-**@author:** Lazlo Meli (https://github.com/lazlomeli)
+**@author:** Lazlo Meli \< https://github.com/lazlomeli >
 
 > Built with: 
 
