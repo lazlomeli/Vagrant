@@ -1,4 +1,4 @@
-# Wordpress installation using Vagrant
+# Wordpress installation using Vagrant LAMP
 ![version](https://img.shields.io/badge/version-1.0-blue)
 
 **@author:** Lazlo Meli (https://github.com/lazlomeli)
@@ -58,7 +58,7 @@ _______________________________________________________________
 The following command was used to test the server `ab -k -n100 -c5 http://127.0.0.1:8000/`
 To learn more about the flags used in this command, [here](https://httpd.apache.org/docs/2.4/programs/ab.html) you can find the official Apache documentation about it.
 
-This is the output of the previous command:
+> This is the output of the previous command:
 
 <img src="https://user-images.githubusercontent.com/72606659/194429378-c5eb790e-b7de-4b74-bc1c-99a528ef65e0.png" width="600" height="600">
 
