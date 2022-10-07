@@ -75,5 +75,14 @@ After all the tests, I collected the data and graphied it:
 
 <img src="https://user-images.githubusercontent.com/72606659/194429891-2577c8dc-a68a-4593-9032-709a7416b26c.png" width="600" height="400">
 
-### 5. End
+### 5. Connect via SSH
+It is possible to connect to the virtual machine created by Vagrant using SSH. The following command will allow you to do so:
+
+`ssh vagrant@127.0.0.1 -p 2222 -o Compression=yes -o DSAAuthentication=yes -o LogLevel=FATAL -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ForwardAgent=yes`
+
+> This command will then ask for the 'vagrant' user password, which in fact is 'vagrant'. To learn more about SSH command flags and options [click here](https://linuxcommand.org/lc3_man_pages/ssh1.html)
+
+_______________________________________________________________
+
+### 6. End
 Learn more about Vagrant [here](https://www.vagrantup.com/docs)
