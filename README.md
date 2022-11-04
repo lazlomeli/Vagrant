@@ -71,7 +71,7 @@ I tested the server with:
 > I could not go any further than 350/35, the server would crash out.
 
 After all the tests, I collected the data and graphied it:
-> Time per request in milliseconds
+> Time per request in seconds
 
 <img src="https://user-images.githubusercontent.com/72606659/194429891-2577c8dc-a68a-4593-9032-709a7416b26c.png" width="600" height="400">
 
